@@ -50,4 +50,6 @@ About 页的联系方式、三段工作经历和获奖记录现为可选中、�
 
 ## GitHub Pages
 
-将 `orbital-archive-v10.zip` 解压到仓库根目录，使 `index.html` 位于根目录。在 GitHub 仓库 Settings → Pages 中选择从分支的 `/ (root)` 发布。全部页面与素材使用相对路径，不需要后端路由。当前网站只在本地预览，尚未公开部署。
+公开地址：<https://zwywz2333.github.io/>。源代码仓库：<https://github.com/zwywz2333/zwywz2333.github.io>。
+
+更新网站时，先运行 `python tools/build_site.py`，再运行 `python tools/package_site.py`。将发布包解压至仓库根目录，确保 `index.html` 位于根目录，然后提交并推送 `main` 分支。全部页面与素材使用相对路径，不需要后端路由。
